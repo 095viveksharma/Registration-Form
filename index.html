@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Registration Form</title>
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <link rel="stylesheet" href="css/vivek.css">
+      </head>
+<body>
+    <header>
+        <h1>Registration Form</h1>
+        <div class="header">
+            <h2>Please fill This Registration Form</h2>
+            <p>For enjoing our services please fill this form</p>
+         </div> <!-- end header -->
+    </header>
+    <main>
+        <div class="header">
+            <form action="index.html" method="post">
+                <!-- Contact Information Block -->
+                <fieldset>
+                    <legend>Contact Information</legend>
+                     <!-- Full Name -->
+                     <div>
+                         <label for="name">Full Name</label>
+                         <input type="text" id="name" name="user_name" placeholder="Required" required>
+                     </div>
+                     <div>
+                        <label>Gender</label>
+                            <input type="radio" name="Gender" value="Male">
+                            <label for="Male">Male</label>
+                            <input type="radio" id="Female" name="Female" value="Female" />
+                            <label for="Female">Female</label>
+                    </div>
+                     <div>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="user_email" placeholder="Required" required>
+                      </div>
+                      <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="user_phone">
+                      </div>
+                      <div>
+                        <label for="address"> Address</label>
+                        <br> <textarea name="Address"  cols="50" rows="7">Enter your address here</textarea> <br> <br>
+                      </div>
+                      <div>
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="user_city" placeholder="Required" required>
+                      </div>
+                      <!-- State -->
+          <div>
+            <label for="state">State</label>
+            <select name="user_state" id="state">
+              <option value="" disabled selected>Choose State</option>
+              <option value="AN">Andaman and Nicobar</option>
+              <option value="Ap">Andhra pradesh</option>
+              <option value="Ap">Arunachal pradesh</option>
+              <option value="As">Assam</option>
+              <option value="BH">Bihar</option>
+              <option value="Ch">Chandigarh</option>
+              <option value="Chh">Chhatisgarh</option>
+              <option value="Dn">Dadar and nagar haweli</option>
+              <option value="Dl">Delhi</option>
+              <option value="G">Goa</option>
+              <option value="Gu">Gujrat</option>
+              <option value="Ha">Haryana</option>
+              <option value="Hi">Himachal pradesh</option>
+              <option value="J">Jammu and kasmir</option>
+              <option value="J">Jharkhand</option>
+              <option value="K">Karnatka</option>
+              <option value="K">Kerla</option>
+              <option value="Ld">Ladakh</option>
+              <option value="Lk">Lakshadweep</option>
+              <option value="M">Madhya pradesh</option>
+              <option value="MD">Maharashtra</option>
+              <option value="MA">Manipur</option>
+              <option value="Me">Meghalaya</option>
+              <option value="MN">Mizoram</option>
+              <option value="Na">Nagaland</option>
+              <option value="Or">Orissa</option>
+              <option value="Pu">Puducherry</option>
+              <option value="Pun">Pujab</option>
+              <option value="Raj">Rajsthan</option>
+              <option value="Sik">Sikkim</option>
+              <option value="TM">Tamil Nadu</option>
+              <option value="Tel">Telangra</option>
+              <option value="Tri">Tripura</option>
+              <option value="UP">Uttar Pradesh</option>
+              <option value="UK">Uttrakhand</option>
+              <option value="WB">West Bangal</option>
+            </select>
+          </div>
+          <div>
+            <label for="pincode">Pin Code</label>
+            <input type="text" id="pincode" name="user_pincode" maxlength="8">
+          </div>
+          <div>
+            <label for="Date of birth">Date of birth</label>
+            <input type="date" name="Date of birth" />
+          </div>
+        </fieldset>
+        <!-- end of Contact Block -->
+            <button type="submit">Register</button>
+     
+          </form>
+         </main>
+         <br/>
+         
+        
+</body>
+</html>
